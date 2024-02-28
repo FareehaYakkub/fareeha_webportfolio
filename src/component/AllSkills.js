@@ -33,7 +33,7 @@ const AllSkills = [
     },
     {
         id: 4,
-        title: "react",
+        title: "reactjs",
         img: <FaReact style={myStyle} />
 
     },

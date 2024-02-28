@@ -14,9 +14,9 @@ const Footer = () => {
                     <div className='location'>
 
                         <FaHome size={20} style={{ color: "white", marginRight: 20 }} />
+                        Kanyakumari District, Tamilnadu.
 
-                        <p>Kanyakumari District,</p>
-                        <p>Tamilnadu</p>
+                       
 
                     </div>
                     <div className='phone'>
@@ -36,10 +36,10 @@ const Footer = () => {
                 <div className='right'>
                     <h6 style={{ marginLeft: "0.1rem" }}>Catch me on the Social Wave!</h6>
 
-                    <div className='social'>
+                    <div className='sicial'>
 
                         <a href="https://www.instagram.com/fa_rii_._/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" alt="Try after sometimes" target="_blank" rel="noopener noreferrer">
-                            <FaInstagram size={30} style={{ color: "white", marginRight: "1rem", marginLeft: "3rem" }}
+                            <FaInstagram size={30} style={{ color: "white", marginRight: "1rem"}}
                                 onMouseOver={(e) => (e.currentTarget.style.color = '#8a3ab9')}
                                 onMouseOut={(e) => (e.currentTarget.style.color = 'white')} />
                         </a>
